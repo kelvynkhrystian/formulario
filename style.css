@@ -48,3 +48,18 @@ header {
 p {
   color: black;
 }
+
+button {
+  color: rgb(119,40,175);
+  background-color: #fff;
+  border: 2px solid rgb(119,40,175);
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 10px;
+}
+
+#buttonSubmit {
+  color: #fff;
+  background-color: rgb(119,40,175);
+  border: none;
+}
