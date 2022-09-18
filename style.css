@@ -63,7 +63,7 @@ h4 {
 
 p {
   color: rgb(119,40,175);
-  margin-bottom: 5px;
+
 }
 
 span {
@@ -83,17 +83,49 @@ span {
   width: 100%;
 }
 
-/* label {
-  width: 100%;
-} */
 
-
-input {
+.input-register {
   color: rgb(119,40,175);
   border: none;
   border-bottom: 1px solid rgb(119,40,175);
+  margin-top: 15px;
   width: 100%;
 }
+
+.input-radio {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-label {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.quest-box > p {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Botões */

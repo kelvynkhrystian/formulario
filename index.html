@@ -23,31 +23,48 @@
 
     <form>
 
-      <section class="quest-box">
+      <section class="quest-box" >
         <label for="name">
           <p>Nome ( não será salvo )</p>
-          <input type="text" placeholder="digite seu nome" required>
+          <input
+            type="text" 
+            placeholder="digite seu nome" 
+            class="input-register" 
+            required
+          >
         </label>
       </section>
 
       <section class="register-box">
         <label for="email">
           <p>Email <span>*</span></p>
-          <input type="email" placeholder="digite seu nome" required>
+          <input
+            type="email" 
+            placeholder="digite seu email" 
+            class="input-register" 
+            required
+          >
         </label>
       </section>
 
-      <section class="quest-box">
-        <label for="name">
-          <p>1. Nome ( não será salvo )<span>*</span></p>
-          <input type="text" placeholder="digite seu nome">
+      <section class="quest-box" >
+
+        <p>1. Você tem algum pet?<span>*</span></p>
+
+        <label for="sim" class="radio-label">
+          <input type="radio" id="sim" name="radio"> Sim
         </label>
+
+        <label for="sim" class="radio-label"> 
+          <input type="radio" id="sim" name="radio"> Não
+        </label>
+        
       </section>
 
-      <!-- <section class="btn-box">
+      <section class="btn-box">
         <button type="submit">Limpar</button>
         <button id="buttonSubmit" type="submit">Enviar</button>
-      </section> -->
+      </section>
       
     </form>
 
