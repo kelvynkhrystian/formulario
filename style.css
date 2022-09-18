@@ -25,14 +25,25 @@ div {
 }
 
 main {
+  align-items: center;
   background-color:#fff;
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px rgb(218, 218, 218);
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   margin-top: 40px;
   width: 90%;
   height: 700px;
+}
+
+form {
+  align-items:flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 90%;
+  font-size: 1.2rem;
 }
 
 header {
@@ -43,10 +54,54 @@ header {
   padding: 15px;
   color: rgb(119,40,175);
   border-bottom: 2px solid rgb(119,40,175);
+  margin-bottom: 25px;
+}
+
+h4 {
+  color: black;
 }
 
 p {
-  color: black;
+  color: rgb(119,40,175);
+  margin-bottom: 5px;
+}
+
+span {
+  color: red;
+}
+/* caixas de perguntas  */
+
+.register-box {
+  color: rgb(119,40,175);
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.quest-box {
+  color: rgb(119,40,175);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* label {
+  width: 100%;
+} */
+
+
+input {
+  color: rgb(119,40,175);
+  border: none;
+  border-bottom: 1px solid rgb(119,40,175);
+  width: 100%;
+}
+
+
+/* Botões */
+
+.btn-box {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 button {
