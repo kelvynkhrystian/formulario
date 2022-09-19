@@ -15,7 +15,7 @@ body {
 }
 
 div {
-  background: rgb(119,40,175);
+  background: rgb(0, 0, 0);
   height: 100px;
   position: fixed;
   top: 0;
@@ -51,8 +51,8 @@ header {
   flex-direction: column;
   justify-content: center;
   padding: 15px;
-  color: rgb(119,40,175);
-  border-bottom: 2px solid rgb(119,40,175);
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
   margin-bottom: 25px;
 }
 
@@ -71,13 +71,13 @@ span {
 /* caixas de perguntas  */
 
 .register-box {
-  color: rgb(119,40,175);
+  color: rgb(0, 0, 0);
   margin-bottom: 60px;
   width: 100%;
 }
 
 section {
-  color: rgb(119,40,175);
+  color: rgb(0, 0, 0);
   margin-bottom: 20px;
   width: 100%;
 }
@@ -86,7 +86,7 @@ section {
 .input-register {
   color: rgb(0, 0, 0);
   border: none;
-  border-bottom: 1px solid rgb(119,40,175);
+  border-bottom: 1px solid rgb(0, 0, 0);
   font-size: 15px;
   margin-top: 15px;
   width: 100%;
@@ -176,7 +176,7 @@ input:focus {
 }
 
 textarea {
-  border: 2px solid rgb(119,40,175);
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 10px;
   padding: 10px;
 }
@@ -190,16 +190,16 @@ textarea {
 }
 
 button {
-  color: rgb(119,40,175);
+  color: rgb(0, 0, 0);
   background-color: #fff;
-  border: 2px solid rgb(119,40,175);
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 5px;
-  padding: 10px 30px;
+  padding: 10px 40px;
   margin: 10px;
 }
 
 #buttonSubmit {
   color: #fff;
-  background-color: rgb(119,40,175);
+  background-color: rgb(0, 0, 0);
   border: none;
 }
