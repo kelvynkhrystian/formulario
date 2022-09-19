@@ -177,8 +177,8 @@ input:focus {
 
 textarea {
   border: 2px solid rgb(0, 0, 0);
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 /* Botões */
