@@ -38,7 +38,12 @@ main {
 }
 
 .main2 {
-  padding: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
 }
 
 form {
@@ -217,4 +222,8 @@ img {
 
 a {
   cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
 }
