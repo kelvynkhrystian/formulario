@@ -205,7 +205,8 @@ label {
 .btn-box {
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 button {
@@ -216,6 +217,8 @@ button {
   border-radius: 5px;
   padding: 10px 50px;
   margin: 10px;
+  width: 50%;
+  height: 50px;
 }
 
 #buttonSubmit {
@@ -231,6 +234,8 @@ img {
 
 a {
   cursor: pointer;
+  color: #fff;
+  text-decoration: none;
 }
 
 #result {
@@ -239,4 +244,19 @@ a {
 
 #resultNo {
   color: rgb(54, 54, 54);
+}
+
+#a2 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+@media (min-width: 480px) {
+  
+  main {
+    width: 80%;
+  }
+
 }
