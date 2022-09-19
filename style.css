@@ -15,7 +15,7 @@ body {
 }
 
 div {
-  background: rgb( 0, 117, 255);
+  background: rgb(119,40,175);
   height: 100px;
   position: fixed;
   top: 0;
@@ -34,7 +34,6 @@ main {
   justify-content: flex-start;
   margin-top: 40px;
   width: 90%;
-  height: 700px;
 }
 
 form {
@@ -52,17 +51,17 @@ header {
   flex-direction: column;
   justify-content: center;
   padding: 15px;
-  color: rgb( 0, 117, 255);
-  border-bottom: 2px solid rgb( 0, 117, 255);
+  color: rgb(119,40,175);
+  border-bottom: 2px solid rgb(119,40,175);
   margin-bottom: 25px;
 }
 
 h4 {
-  color: rgb(32, 32, 32);
+  color: black;
 }
 
 p {
-  color: rgb( 0, 117, 255);
+  color: rgb(0, 0, 0);
 
 }
 
@@ -72,22 +71,22 @@ span {
 /* caixas de perguntas  */
 
 .register-box {
-  color: rgb( 0, 117, 255);
+  color: rgb(119,40,175);
   margin-bottom: 60px;
   width: 100%;
 }
 
 section {
-  color: rgb( 0, 117, 255);
+  color: rgb(119,40,175);
   margin-bottom: 20px;
   width: 100%;
 }
 
 
 .input-register {
-  color: rgb( 0, 117, 255);
+  color: rgb(0, 0, 0);
   border: none;
-  border-bottom: 1px solid rgb( 0, 117, 255);
+  border-bottom: 1px solid rgb(119,40,175);
   font-size: 15px;
   margin-top: 15px;
   width: 100%;
@@ -102,11 +101,71 @@ section {
 
 .radio-label {
   margin-right: 10px;
+  margin-bottom: 10px;
   font-size: 15px;
 }
 
+.quest-box2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.quest-box3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.quest-box4 {
+  display: flex;
+  flex-direction: column;
+}
+.quest-box5 {
+  display: flex;
+  flex-direction: column;
+}
+.quest-box6 {
+  display: flex;
+  flex-direction: column;
+}
+.quest-box7 {
+  display: flex;
+  flex-direction: column;
+}
+.quest-box8 {
+  display: flex;
+  flex-direction: column;
+}
+
 .quest-box > p {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.quest-box2 > p {
+  margin-bottom: 15px;
+}
+
+.quest-box3 > p {
+  margin-bottom: 15px;
+}
+
+.quest-box4 > p {
+  margin-bottom: 15px;
+}
+
+.quest-box5 > p {
+  margin-bottom: 15px;
+}
+
+.quest-box6 > p {
+  margin-bottom: 15px;
+}
+
+.quest-box7 > p {
+  margin-bottom: 15px;
+}
+
+.quest-box8 > p {
+  margin-bottom: 15px;
 }
 
 /* retirando as cores do input selecionado */
@@ -116,29 +175,11 @@ input:focus {
   outline: 0;
 }
 
-/* input:checked {
-  background-color: yellow;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+textarea {
+  border: 2px solid rgb(119,40,175);
+  border-radius: 10px;
+  padding: 10px;
+}
 
 /* Botões */
 
@@ -149,9 +190,9 @@ input:focus {
 }
 
 button {
-  color: rgb( 0, 117, 255);
+  color: rgb(119,40,175);
   background-color: #fff;
-  border: 2px solid rgb( 0, 117, 255);
+  border: 2px solid rgb(119,40,175);
   border-radius: 5px;
   padding: 10px 30px;
   margin: 10px;
@@ -159,6 +200,6 @@ button {
 
 #buttonSubmit {
   color: #fff;
-  background-color: rgb( 0, 117, 255);
+  background-color: rgb(119,40,175);
   border: none;
 }
