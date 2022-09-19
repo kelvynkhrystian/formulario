@@ -37,6 +37,10 @@ main {
   min-height: 220px;
 }
 
+.main2 {
+  padding: 50px;
+}
+
 form {
   align-items:flex-start;
   display: flex;
@@ -192,6 +196,7 @@ textarea {
 
 button {
   color: rgb(0, 0, 0);
+  cursor: pointer;
   background-color: #fff;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 5px;
@@ -206,6 +211,10 @@ button {
 }
 
 img {
-
+  margin: 25px;
   width: 300px;
+}
+
+a {
+  cursor: pointer;
 }
