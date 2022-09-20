@@ -4,7 +4,7 @@
 ## Link aplicação online: https://formulario-nine-orcin.vercel.app/
 
 ### Objetivo:
-##### Revisar Forms e validações Html
+##### Revisar Forms e Validações Html
 ##### Html semântico e Css Flexbox
 ##### Responsividade (Mobile First, PC second)
 ##### Git branchs e commits melhores ( melhorando a cada dia )
